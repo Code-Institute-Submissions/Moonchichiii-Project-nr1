@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Rubik+Gemstones&display=swap');
+
+@media screen and (max-width:967px) (min-width:481px){
+    
+}
+    
+        
+    
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color:#3a3a3a; 
+    overflow-x: scroll;    
+    scroll-behavior: smooth;   
+}
+
+* {
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+.logo-link {
+    margin-left:200px;
+    overflow:auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+iframe {
+    height: 500px;
+    width: 75%;
+    margin-top:100px;
+    margin-left: 12%;
+    align-items: center;
+}
+
+h1 {
+    text-align: left;
+    color:yellowgreen;
+    text-transform: uppercase;
+    font-family:Rubik Gemstones,lato;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: Noto Sans,sans-serif;
+}
+
+
+#header-image {
+    opacity: 0.7;  
+    width:100%;
+    height:570px;    
+    }
+
+    ul {
+        
+        text-align: center;
+        gap: 5px;
+    }
+#sticky {
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+a,li {
+    display: inline-block;
+    padding: 10px;
+    font-family: lato;
+    font-weight: 300;
+    font-size: larger;
+    letter-spacing: 2px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #3a3a3a;
+    }
+
+a:hover {
+    color:orange;
+}
+
+
+.news-dates {
+    margin-top: 25px;
+    float:right;
+    margin-left:5px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #3a3a3a;
+    }
+
+.content-boxes {
+    margin-top:40px;   
+    display: inline-block;
+    margin-bottom: 35px;
+    font-family: Noto Sans;
+    text-align: left;
+    text-overflow: auto;
+
+}
+
+
+hr {
+    width: 50%;
+    line-height: 1px;
+    border: solid 0.5px;
+    color: #3a3a3a;
+}
+
+
+#center-image {
+    
+    opacity: 0.8;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+}
+
+#origins {
+    
+    margin-left:10px;
+    font-family: Noto Sans;
+    font-weight: 800;  
+    background-color:rgb(154, 205, 50,0.2);
+    height: max-content;
+    width: 25%;
+    min-width: 75%;
+    border: #3a3a3a;
+    text-overflow: auto;
+    display: inline-block;
+
+}
+#traditions-image {
+
+    float: right;
+    opacity: 0.8;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+}
+#traditions {
+    
+    margin-right: 10px;
+    margin-top: 40px;
+    font-family: Noto Sans;
+    font-weight: 800;  
+    background-color:rgb(154, 205, 50,0.2);
+    height: max-content;
+    width: 25%;
+    min-width: 75%;
+    border: #3a3a3a;
+    text-overflow: auto;
+    display: inline-block;
+    float: right;
+
+}
+
+#mexico { 
+    
+    margin-left:10px;   
+    margin-top: 40px;
+    font-family: Noto Sans;
+    font-weight: 800;  
+    background-color:rgb(154, 205, 50,0.2);
+    height: max-content;
+    width: 25%;
+    min-width: 75%;
+    border: #3a3a3a;
+    text-overflow: fit-content;
+    display: inline-block;
+    float:left;
+    
+}
+
+#mexico-image {
+
+    margin-top: 80px;
+    opacity: 0.8;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+
+
+
+
+
+
+#gallery {
+    font-family: Noto Sans;
+    font-weight: 800;  
+    margin-left:10px;
+    margin-top: 50px;
+    display: flex;
+    display: inline-block;
+    background-color:rgb(154, 205, 50,0.2);
+    border: #3a3a3a;
+    text-overflow: auto;
+    height: 25%;
+    width: 100%;
+    min-width: 75%;
+    float: right;
+    margin-bottom: 150px;
+}    
+
+.gallery-images {
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+
+.gallery-images:hover {
+    
+    width: 400px;
+    height: 400px;
+    transition: 0.40s;
+}
+#contact-wrapper {
+    height: 400px;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+
+#contact {
+    display: inline-block;
+    margin-top: 40px;
+    height: 50%;
+    width: 37%;
+    min-height: 15%;
+    min-width: 25%;
+    border: groove 1px  #3a3a3a;
+    text-overflow: auto;
+    background: white;
+    
+   }
+
+input[type="email"] {
+    padding: 3px;
+    border: 1px solid #3a3a3a;
+  }
+
+input[type="submit"] {
+    padding: 3px;
+    border: 1px solid #3a3a3a;
+}
+
+/*
+always do this between each change. 
+
+gid add .
+
+git commit -m "information on your changes "
+
+*/
+
+
+
+#foot {
+    margin-top: 150px;
+    text-align: center;
+   /* position: fixed; */
+    /*left: 0;
+    bottom: 0;*/
+    height: 35%;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.7);
+    text-align: center;
+ }
+ 
+
+
+
+ ion-icon {
+    margin-top: 20px;
+    font-size: 54px;
+    color: #3a3a3a;
+    --ionicon-stroke-width: 16px;
+        
+  }
+  
+  ion-icon:hover {
+    
+    color: orange;
+    cursor:pointer; 
+
+  }
+
+  #copy {
+    margin-bottom:25px;
+  }
+ 
