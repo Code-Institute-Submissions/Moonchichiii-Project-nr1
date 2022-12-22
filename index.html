@@ -43,7 +43,7 @@
     
     <div> <!---remember to make these links  work!!! -->
         <li class="news-dates">
-            <a href="newsletter"># Newsletter</a><hr>
+            <a href="#newsletter-wrapper"># Newsletter</a><hr>
          </li>
     
          <li class="news-dates">
@@ -57,7 +57,7 @@
       
     <div class="content-boxes">
 
-   
+   <!--remeber to add more space between the content boxes, so when you do the link jump it doesn't look to messy. ---->
     
         <div id="origins">
             <img id ="center-image" src="https://images.pexels.com/photos/13145349/pexels-photo-13145349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo by Jonathan Valdes from Pexels">
@@ -99,7 +99,7 @@
         
         <div id="mexico">
             <img id="center-image" src="https://images.pexels.com/photos/14427926/pexels-photo-14427926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo by Oscar Damián Jiménez  from Pexels">
-            <p><h2><em># In Meixico</em></h2><hr><br>
+            <p><h2><em># In Mexico</em></h2><hr><br>
         
         During the Day of the Dead, many Mexicans celebrate by visiting 
         the graves of their deceased loved ones and decorating them with flowers, candles, and other offerings.
@@ -128,17 +128,24 @@
             <img class="gallery-images" src="https://images.pexels.com/photos/13742053/pexels-photo-13742053.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo by Eduardo  González  from Pexels">
             
           </div>
-
+<!--make the box abit bigger so it looks more unified, with the rest of the site!!!-->
         
-    <div id="contact-wrapper" >
-       
-        <div id="contact" name="newsletter"> <fieldset for="email"># Newsletter</fieldset>
-            <form action="/subscribe" method="post">
-                    
-                    <input type="email" id="email" name="email" placeholder="Subscribe for our newsletter" required>
-                    <input type="submit" value="Subscribe...">
-              </form>    
-        </div></div>
+    <div id="newsletter-wrapper" >
+
+        <fieldset>
+            <form action="https://formdump.codeinstitute.net/">
+            
+              <div class="newsletter">
+            
+                <h2>Subscribtion to our Newsletter</h2>
+            
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email address" name="mail" required>
+                <input type="submit" value="Subscribe">
+        
+            </form></div>
+          </fieldset>
+   <!--plan is to write an small calender with a set date, maybe a link to flights for that date? -->
 
         <div id="dates"></div>
 
