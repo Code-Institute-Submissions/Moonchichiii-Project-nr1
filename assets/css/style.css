@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Rubik+Gemstones&display=swap');
 
-@media screen and (max-width:967px) (min-width:481px){
+@media screen and (max-width:967px)
+ (min-width:481px){
     
 }
     
@@ -61,9 +62,8 @@ h2 {
         gap: 5px;
     }
 #sticky {
-    position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+        position: sticky;
+        top: 0;
 }
 
 a,li {
@@ -126,7 +126,7 @@ hr {
     margin-left:10px;
     font-family: Noto Sans;
     font-weight: 800;  
-    background-color:rgb(154, 205, 50,0.2);
+    background-color:rgba(252, 200, 9,0.3);
     height: max-content;
     width: 25%;
     min-width: 75%;
@@ -150,7 +150,7 @@ hr {
     margin-top: 40px;
     font-family: Noto Sans;
     font-weight: 800;  
-    background-color:rgb(154, 205, 50,0.2);
+    background-color:rgba(252, 200, 9,0.3);
     height: max-content;
     width: 25%;
     min-width: 75%;
@@ -167,7 +167,7 @@ hr {
     margin-top: 40px;
     font-family: Noto Sans;
     font-weight: 800;  
-    background-color:rgb(154, 205, 50,0.2);
+    background-color:rgba(252, 200, 9,0.3);
     height: max-content;
     width: 25%;
     min-width: 75%;
@@ -201,10 +201,10 @@ hr {
     margin-top: 50px;
     display: flex;
     display: inline-block;
-    background-color:rgb(154, 205, 50,0.2);
+    background-color:rgba(252, 200, 9,0.3);
     border: #3a3a3a;
     text-overflow: auto;
-    height: 25%;
+    height: 600px;
     width: 100%;
     min-width: 75%;
     float: right;
@@ -212,6 +212,7 @@ hr {
 }    
 
 .gallery-images {
+    margin-top: 50px;
     margin: 0 auto;
     margin-left: 50px;
     margin-bottom: 20px;
@@ -227,6 +228,7 @@ hr {
     transition: 0.40s;
 }
 #contact-wrapper {
+    float:right;
     height: 400px;
     width: 50%;
     margin-top: 50px;
@@ -258,6 +260,8 @@ input[type="submit"] {
     border: 1px solid #3a3a3a;
 }
 
+
+
 /*
 always do this between each change. 
 
@@ -270,20 +274,18 @@ git commit -m "information on your changes "
 
 
 #foot {
-    margin-top: 150px;
-    text-align: center;
-   /* position: fixed; */
-    /*left: 0;
-    bottom: 0;*/
-    height: 35%;
-    width: 100%;
-    background-color:rgba(255, 255, 255, 0.7);
-    text-align: center;
- }
- 
-
-
-
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   min-height: 130px;
+   align-items: center;
+   row-gap: 25px;
+   width: 100%; 
+   background-color:rgba(245, 245, 245, 0.7);
+   text-align: center;
+  }
+  
  ion-icon {
     margin-top: 20px;
     font-size: 54px;
@@ -300,6 +302,10 @@ git commit -m "information on your changes "
   }
 
   #copy {
-    margin-bottom:25px;
-  }
+
+    margin-top: 2px;
+    margin-bottom: 3px;
+    text-align: center;
+    }    
+   
  
