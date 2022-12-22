@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Rubik+Gemstones&display=swap');
 
-@media screen and (max-width:967px)
- (min-width:481px){
-    
-}
-    
+@media screen and  
+(min-width:481px){
+    }
         
-    
 body {
     font-family: 'Noto Sans', sans-serif;
     color:#3a3a3a; 
@@ -38,11 +35,11 @@ iframe {
 
 h1 {
     text-align: left;
-    color:yellowgreen;
+    color:rgba(252, 200, 9);
     text-transform: uppercase;
     font-family:Rubik Gemstones,lato;
-    font-weight: 500;
-    font-size: xx-large;
+    font-weight: 400;
+    font-size: 75px;
 }
 
 h2 {
@@ -122,10 +119,11 @@ hr {
 }
 
 #origins {
-    
+    text-align: center;
     margin-left:10px;
     font-family: Noto Sans;
     font-weight: 800;  
+    font-size: large;
     background-color:rgba(252, 200, 9,0.3);
     height: max-content;
     width: 25%;
@@ -145,11 +143,12 @@ hr {
     
 }
 #traditions {
-    
+    text-align: center;
     margin-right: 10px;
     margin-top: 40px;
     font-family: Noto Sans;
-    font-weight: 800;  
+    font-weight: 800; 
+    font-size: large; 
     background-color:rgba(252, 200, 9,0.3);
     height: max-content;
     width: 25%;
@@ -162,11 +161,12 @@ hr {
 }
 
 #mexico { 
-    
+    text-align: center;
     margin-left:10px;   
     margin-top: 40px;
     font-family: Noto Sans;
     font-weight: 800;  
+    font-size: large;
     background-color:rgba(252, 200, 9,0.3);
     height: max-content;
     width: 25%;
@@ -302,10 +302,12 @@ git commit -m "information on your changes "
   }
 
   #copy {
-
+    font-family: nato sans, system-ui;
+    line-height: 2px;
+    text-align: center;
     margin-top: 2px;
     margin-bottom: 3px;
-    text-align: center;
+
     }    
    
  
