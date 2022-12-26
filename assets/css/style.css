@@ -64,7 +64,7 @@ h2 {
 #sticky {
         position: sticky;
         top: 0;
-        margin-bottom: 20px;
+        margin: 10px 10px 10px 10px;
 }
 
 a,li {
@@ -123,6 +123,7 @@ hr {
 }
 
 #origins {
+    border-radius: 15px;
     text-align: center;
     margin-top: 100px;
     margin-left:10px;
@@ -149,6 +150,7 @@ hr {
     
 }
 #traditions {
+    border-radius: 15px;
     text-align: center;
     margin-right: 10px;
     margin-top: 130px;
@@ -167,6 +169,7 @@ hr {
 }
 
 #mexico { 
+    border-radius: 15px;
     text-align: center;
     margin-left:10px;   
     margin-top: 130px;
