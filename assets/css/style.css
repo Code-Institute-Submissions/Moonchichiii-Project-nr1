@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Rubik+Gemstones&display=swap');
 
-@media screen and  
-(min-width:481px){
-    }
+@media (min-width: 481px) and (max-width: 967px) {
+
+}
         
 body {
     font-family: 'Noto Sans', sans-serif;
@@ -249,7 +249,6 @@ fieldset {
     
     display: block;
     position: relative;
-    /*margin-top: 10px;*/
     height: 80%;
     width: 37%;
     min-height: 15%;
@@ -260,32 +259,36 @@ fieldset {
    
   
   .newsletter {
-    text-align: center;
+   text-align: center;
    background-color: white;
    width: fit-content;
+   height: fit-content;
+  }
+
+  .news-bottom {
+    margin-top: 70px;
   }
   
   input[type=text], input[type=submit] {
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
     display: inline-block;
     width: 150px;
-    padding: 5px;
-    margin: 3px;    
+    padding: 5px;   
     border: 1px solid #3a3a3a;
     width: 150px;
   }
-  
-  input[type=checkbox] {
-    margin-top: 12px;
-  }
-  
+    
   input[type=submit] {
-    background-color: rgba(252, 200, 9, 0.5);
+    background-color: rgba(252, 200, 9, 0.9);
     color: white;
     border: none;
   }
   
   input[type=submit]:hover {
-    background-color: rgba(252, 200, 9, 0.9);
+    background-color:  rgba(252, 200, 9, 0.5);
   }
 
 #dates {
@@ -295,29 +298,23 @@ fieldset {
     height: 50%;
 }
 
-/*
-always do this between each change. 
-
-gid add .
-
-git commit -m "information on your changes "
-
-*/
-
-
-
 footer {
-    margin-left: 5px;
-    text-align: center;
-    margin-top: 40px 10px 5px 10px;
+    
     width: 100%;
-    height: 140px;        
+    position: fixed;
+    bottom:0;    
+    height: 10%;        
     background-color:rgba(252, 200, 9,0.5);
-  }
+    text-align: center;
+ }
+
+ h6 {
+    margin-bottom: 25px;
+ }
   
  ion-icon {
-    margin-top: 10px;
-    font-size: 54px;
+    /*margin-top: 1px;*/
+    font-size: 52px;
     color: #3a3a3a;
     --ionicon-stroke-width: 16px;
         
@@ -330,6 +327,13 @@ footer {
 
   }
 
- 
+ /*
+always do this between each change. 
+
+gid add .
+
+git commit -m "information on your changes "
+
+*/
    
  
