@@ -123,6 +123,7 @@ hr {
 }
 
 #origins {
+    box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
     border-radius: 15px;
     text-align: center;
     margin-top: 100px;
@@ -150,6 +151,7 @@ hr {
     
 }
 #traditions {
+    box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
     border-radius: 15px;
     text-align: center;
     margin-right: 10px;
@@ -169,6 +171,7 @@ hr {
 }
 
 #mexico { 
+    box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
     border-radius: 15px;
     text-align: center;
     margin-left:10px;   
