@@ -30,6 +30,7 @@ iframe {
     width: 75%;
     margin-top:100px;
     margin-left: 12%;
+    margin-bottom: 90px;
     align-items: center;
 }
 
@@ -44,6 +45,8 @@ h1 {
 
 h2 {
     font-family: Noto Sans,sans-serif;
+    font-size: 54px;
+    font-weight: 600;
 }
 
 
@@ -61,6 +64,7 @@ h2 {
 #sticky {
         position: sticky;
         top: 0;
+        margin-bottom: 20px;
 }
 
 a,li {
@@ -81,7 +85,7 @@ a:hover {
 
 
 .news-dates {
-    margin-top: 25px;
+    margin-top: 5px;
     float:right;
     margin-left:5px;
     list-style-type: none;
@@ -120,7 +124,9 @@ hr {
 
 #origins {
     text-align: center;
+    margin-top: 100px;
     margin-left:10px;
+    margin-bottom: 100px;
     font-family: Noto Sans;
     font-weight: 800;  
     font-size: large;
@@ -145,7 +151,7 @@ hr {
 #traditions {
     text-align: center;
     margin-right: 10px;
-    margin-top: 40px;
+    margin-top: 100px;
     font-family: Noto Sans;
     font-weight: 800; 
     font-size: large; 
@@ -188,13 +194,8 @@ hr {
     float: left;
 }
 
-
-
-
-
-
-
 #gallery {
+    text-align: center;
     font-family: Noto Sans;
     font-weight: 800;  
     margin-left:10px;
@@ -228,7 +229,7 @@ hr {
     transition: 1.80s;
 }
 #newsletter-wrapper {
-    float:left;
+    display: inline-block;
     height: 400px;
     width: 50%;
     margin-top: 50px;
@@ -247,16 +248,21 @@ fieldset {
 
 .newsletter {
     
-    display: block;
+    display: inline-block;
     position: relative;
     height: 80%;
-    width: 37%;
+    width: 10%;
     min-height: 15%;
     min-width: 25%;
     text-overflow: auto;
     background: white;    
-   }
-   
+  }
+
+   h3 {
+    font-family: Noto Sans,sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}  
   
   .newsletter {
    text-align: center;
@@ -291,7 +297,38 @@ fieldset {
     background-color:  rgba(252, 200, 9, 0.5);
   }
 
+
+
+
+  #contact-us {
+    width: 100%;
+    height: 50%;
+    float: right;
+    text-align: center;
+    border: #3a3a3a 1px soild;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    width: 100%;
+    height: 50%;
+}
+
+#form-contact {
+    margin-left: 5px;
+    border: #3a3a3a solid 1px;
+        
+}
+
+
+
 #dates {
+    
+    width: 100%;
+    height: 50%;
+    float: right;
+    text-align: center;
+    border: #3a3a3a 1px soild;
+    background-color: white;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
@@ -302,6 +339,7 @@ footer {
     
     width: 100%;
     position: fixed;
+    margin-top: auto;
     bottom:0;    
     height: 10%;        
     background-color:rgba(252, 200, 9,0.5);
