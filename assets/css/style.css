@@ -62,9 +62,13 @@ h2 {
         gap: 5px;
     }
 #sticky {
-        position: sticky;
+        position: relative;
         top: 0;
-        margin: 10px 10px 10px 10px;
+        margin: 20px 50px 50px 50px;
+        top: 25px;
+        /*left: 25px;*/
+        z-index: 3;
+        background-color: rgba(252, 200, 9,0.3);
 }
 
 a,li {
@@ -123,24 +127,27 @@ hr {
 }
 
 #origins {
+    display: inline-block;
     box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
     border-radius: 15px;
-    text-align: center;
-    margin-top: 100px;
-    margin-left:10px;
-    margin-bottom: 100px;
+    text-align: justify;
+    margin:60px 0px 80px 10px;
     font-family: Noto Sans;
     font-weight: 800;  
     font-size: large;
     background-color:rgba(252, 200, 9,0.3);
-    height: max-content;
-    width: 25%;
+    height: 65%;
+    width: 35%;
     min-width: 75%;
     border: #3a3a3a;
     text-overflow: auto;
-    display: inline-block;
+   }
 
-}
+#origins-text {
+    margin: 0px 20px 10px 20px;
+    }
+
+
 #traditions-image {
 
     float: right;
@@ -153,15 +160,14 @@ hr {
 #traditions {
     box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
     border-radius: 15px;
-    text-align: center;
-    margin-right: 10px;
-    margin-top: 130px;
+    text-align: left;
+    margin: 100px 10px 0px 0px;
     font-family: Noto Sans;
     font-weight: 800; 
     font-size: large; 
     background-color:rgba(252, 200, 9,0.3);
-    height: max-content;
-    width: 25%;
+    height: 65%;
+    width: 35%;
     min-width: 75%;
     border: #3a3a3a;
     text-overflow: auto;
@@ -169,25 +175,33 @@ hr {
     float: right;
 
 }
+#trad-text {
+    margin: 0px 20px 10px 20px;
+    }
 
 #mexico { 
     box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
     border-radius: 15px;
     text-align: center;
-    margin-left:10px;   
-    margin-top: 130px;
+    margin: 100px 0px 0px 10px;
     font-family: Noto Sans;
     font-weight: 800;  
     font-size: large;
     background-color:rgba(252, 200, 9,0.3);
-    height: max-content;
-    width: 25%;
+    height: 65%;
+    width: 35%;
     min-width: 75%;
     border: #3a3a3a;
     text-overflow: fit-content;
     display: inline-block;
     float:left;
     
+}
+#mexico-text {
+    margin: 0px 20px 10px 20px;
+    }
+#mexico-topic {
+    text-align: left;
 }
 
 #mexico-image {
@@ -201,11 +215,11 @@ hr {
 }
 
 #gallery {
+    box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
     text-align: center;
     font-family: Noto Sans;
     font-weight: 800;  
-    margin-left:10px;
-    margin-top: 130px;
+    margin: 100px 0px 100px 10px;
     display: flex;
     display: inline-block;
     background-color:rgba(252, 200, 9,0.3);
@@ -215,65 +229,31 @@ hr {
     width: 100%;
     min-width: 75%;
     float: right;
-    margin-bottom: 150px;
+    
 }    
 
 .gallery-images {
-    margin-top: 30px;
-    /*margin: 0 auto;*/
-    margin-left: 55px;
-    margin-bottom: 10px;
+    margin: 30px 55px 10px 0px; 
     width: 300px;
     height: 300px;
 }
 
 
 .gallery-images:hover {
-    
+ 
     width: 400px;
     height: 400px;
     transition: 1.80s;
 }
 
-
-
-
-
-
-#newsletter-wrapper {
-
-    text-align: center;
-    display: inline-block;
-    display: flex;
-    flex-flow: wrap; 
-    height: 30%;
-    width: 35%;
-    margin-left: 33%;
-    margin-top: 40px;
-    margin-bottom: 150px;
-    background-color: white;
-
-}
-
-fieldset {
-    margin: 10px 25px 20px 25px;
-    border: 1px solid #3a3a3a;
-    width: fit-content;
-    font-family: nato sans;
-  }
-
-   h3 {
+h3 {
     font-family: Noto Sans,sans-serif;
     font-size: 35px;
     font-weight: 600;
 }  
 
-  .news-bottom {
-    margin-top: 70px;
-  }
-  
   input[type=text], input[type=submit] {
-    margin: 50px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
     display: inline-block;
     width: 150px;
     padding: 5px;   
@@ -291,36 +271,69 @@ fieldset {
     background-color:  rgba(252, 200, 9, 0.5);
   }
 
-  #contact-us {
-    margin-top: 70px;
-    width: 100%;
+  textarea {
+    border: 1px solid #3a3a3a;
+    margin: 5px 5px 5px 5px;
+    display: inline-block;
+    width: 150px;
+    padding: 5px;   
+    width: 150px;
+}
+  
+  
+
+ #wrapper  {
+        display: inline-block;
+        grid-auto-rows: max-content;
+        margin: 0% 0% 2% 25%;
+        
+  }
+    
+    
+fieldset {
+    text-align: center;
+    background-color:rgba(252, 200, 9,0.3);
+    margin: 10px 10px 5px 10px;
+    border: 1px solid #3a3a3a;
+    height: fit-content;
+    width: fit-content;
+    min-width: fit-content;
+    font-family: nato sans;
+  }
+
+.subscribe {
+    float: right;
+    margin-right: 8px;
+    width: 35%;
+    min-width: ;
+    height: 52%;
+    text-align: center;
+    border: #3a3a3a 1px soild;
+    
+}
+ .contact-us {
+    float: left;
+    width: 20%;
     height: 50%;
     text-align: center;
     border: #3a3a3a 1px soild;
-    background-color: white;
-    
-    }
-
-#form-contact {
-    margin-left: 5px;
-    border: #3a3a3a solid 1px;
-        
 }
 
-#dates {
-    margin-top: 70px;
-    width: 100%;
+.dates {
+    
+    margin: 5px 5px 5px 5px;
+    width: 22%;
     height: 50%;
     text-align: center;
     border: #3a3a3a 1px soild;
-    background-color: white;
+    
        
 }
 
 footer {
     
     width: 100%;
-    position: fixed;
+    /*position: fixed;*/
     margin-top: auto;
     bottom:0;    
     height: 10%;        
