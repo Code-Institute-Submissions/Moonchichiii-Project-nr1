@@ -282,9 +282,10 @@ h3 {
     border: 1px solid #3a3a3a;
     margin: 5px 5px 5px 5px;
     display: inline-block;
-    width: 150px;
+    width: 250px;
+    
     padding: 5px;   
-    width: 150px;
+    
 }
   
   
@@ -298,6 +299,7 @@ h3 {
     
     
 fieldset {
+    float: right;
     
     text-align: center;
     background-color:rgba(252, 200, 9,0.3);
@@ -313,7 +315,7 @@ fieldset {
     box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
     margin: 5px 5px 5px 5px;
     float: right;
-    width: 30%;
+    width: 45%;
     min-width: 15%;
     height: 45%;
     text-align: center;
@@ -323,10 +325,9 @@ fieldset {
  .contact-us {
     box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
     margin: 5px 5px 5px 5px;
-    row-gap: 2px;
     float: left;
     width: 25%;
-    height: 50%;
+    height: 45%;
     text-align: center;
     border: #3a3a3a 1px soild;
 }
@@ -334,8 +335,8 @@ fieldset {
 .dates {
     box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
     margin: 5px 5px 5px 5px;
-    width: 24%;
-    height: 50%;
+    width: 33%;
+    height: 40%;
     text-align: center;
     border: #3a3a3a 1px soild;
     
