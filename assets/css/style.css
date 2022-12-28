@@ -34,6 +34,12 @@ iframe {
     align-items: center;
 }
 
+#iframe-text {
+    margin-left: 15%;
+    text-align: center;
+
+}
+
 h1 {
     text-align: left;
     color:rgba(252, 200, 9);
@@ -62,7 +68,8 @@ h2 {
         gap: 5px;
     }
 #sticky {
-        position: relative;
+       box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
+       position: relative;
         top: 0;
         margin: 20px 50px 50px 50px;
         top: 25px;
@@ -308,7 +315,7 @@ fieldset {
     float: right;
     width: 30%;
     min-width: 15%;
-    height: 50%;
+    height: 45%;
     text-align: center;
     border: #3a3a3a 1px soild;
     
@@ -316,6 +323,7 @@ fieldset {
  .contact-us {
     box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
     margin: 5px 5px 5px 5px;
+    row-gap: 2px;
     float: left;
     width: 25%;
     height: 50%;
