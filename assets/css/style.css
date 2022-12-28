@@ -190,7 +190,7 @@ hr {
     box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
     border-radius: 15px;
     text-align: center;
-    margin: 100px 0px 0px 10px;
+    margin: 100px 0px 80px 10px;
     font-family: Noto Sans;
     font-weight: 800;  
     font-size: large;
@@ -253,15 +253,15 @@ hr {
     transition: 1.80s;
 }
 
-.dates {
+#dates {
     box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
-    margin-top: 50px;
-    width: 80%;
-    height: 30%;
+    background-color:rgba(252, 200, 9,0.3);
+    margin-top: 50px 0px 10px 5px;
+    width: 50%;
+    height: 10%;
     text-align: center;
     border: #3a3a3a 1px soild;
-    
-       
+          
 }
 
 h3 {
@@ -302,22 +302,14 @@ h3 {
        box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);     
        background-color:rgba(252, 200, 9,0.3);
        display: inline-block;
-       margin: 0% 0% 5% 20%;
+       margin: 0% 0% 3% 22%;
        border: 1px solid #3a3a3a;
        height: 40%;
-       width: 65%;
-       font-family: nato sans;    
+       width: 55%;
+       font-family: nato sans;  
+       text-overflow: fit;  
   }
-
-#sub-section {
-
-    
-
-} 
-
-#contact-section {
-
-}
+ 
 
 #contact-us {
     float: right;
