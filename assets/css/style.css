@@ -7,9 +7,7 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     color:#3a3a3a; 
-    /*overflow-x: scroll;    
-    scroll-behavior: smooth;*/
-}
+  }
 
 * {
     margin:0;
@@ -35,7 +33,7 @@ iframe {
 }
 
 #iframe-text {
-    margin-left: 15%;
+    margin-left:20%;    
     text-align: center;
 
 }
@@ -221,6 +219,21 @@ hr {
     float: left;
 }
 
+#dates {
+    display: inline-block;
+    clear: both;
+    width: 50%;
+    height: fit-content;
+    margin: 5% 0% 5% 20%;
+    text-align: center;
+    border: #3a3a3a 1px soild;
+    box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
+    background-color:rgba(252, 200, 9,0.3);
+      
+}
+
+
+
 #gallery {
     box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
     text-align: center;
@@ -253,32 +266,28 @@ hr {
     transition: 1.80s;
 }
 
-#dates {
-    box-shadow: 5px 10px 0 0 rgba(252, 200, 9,0.7);
-    background-color:rgba(252, 200, 9,0.3);
-    margin-top: 50px 0px 10px 5px;
-    width: 50%;
-    height: 10%;
-    text-align: center;
-    border: #3a3a3a 1px soild;
-          
-}
+
 
 h3 {
+    margin: 0px 0px 0px 5px;
     font-family: Noto Sans,sans-serif;
     font-size: 35px;
     font-weight: 600;
 }  
 
-  input[type=text], input[type=submit] {
+
+/* below is for the subscribe and contact us section of the site.  */
+
+
+  input[type=text],input[type=submit] {
     margin: 5px 5px 5px 5px;
     width: 150px;
     padding: 5px;   
     border: 1px solid #3a3a3a;
     width: 150px;
   }
-    
-  input[type=submit] {
+   
+input[type=submit] {
     background-color: rgba(252, 200, 9, 0.9);
     color: white;
     border: none;
@@ -287,8 +296,8 @@ h3 {
   input[type=submit]:hover {
     background-color:  rgba(252, 200, 9, 0.5);
   }
-
-  textarea {
+  
+ textarea {
     border: 1px solid #3a3a3a;
     margin: 5px 5px 5px 5px;
     display: inline-block;
@@ -306,6 +315,8 @@ h3 {
        border: 1px solid #3a3a3a;
        height: 40%;
        width: 55%;
+       min-width: fit-content;
+       min-height: fit-content;
        font-family: nato sans;  
        text-overflow: fit;  
   }
