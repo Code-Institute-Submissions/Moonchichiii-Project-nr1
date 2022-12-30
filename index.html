@@ -19,10 +19,12 @@
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 <style>
+
     h4 {
         text-align: center;
-
+        margin: 0px 0px 0px 0px;
     }
+    
 </style>
 
 <body>
@@ -50,7 +52,7 @@
     
     <div> 
         <li class="news-dates">
-            <a href="#wrapper"># Newsletter</a><hr>
+            <a href="#sub-con-wrapper"># Newsletter</a><hr>
          </li>
     
          <li class="news-dates">
@@ -58,9 +60,11 @@
          </li>
     </div>
     <hr>
-        <iframe width="1268" height="713" src="https://www.youtube.com/embed/8FHrhH9k-PY" title="Mexican Day of the Dead" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><br>
+    <div>
+        <iframe width="1268" height="713" src="https://www.youtube.com/embed/8FHrhH9k-PY" title="Mexican Day of the Dead" frameborder="0" allow="autoplay" allowfullscreen">
             </iframe>
     <h4 id="ifram-text">This beautiful documentary introduces the history and evolution of the Mexican Day of the Dead, from its pagan beginnings to the multi-faceted ceremony it is today</h4>
+    </div>
     <div class="content-boxes">
 
    <!--remeber to add more space between the content boxes, so when you do the link jump it doesn't look to messy. ---->
@@ -118,11 +122,11 @@
         It is a joyous and colorful occasion, despite the fact that it centers around death. 
         In a Mexican person's life during this celebration, they may spend time with their family and friends,
         remembering and honoring their deceased loved ones.</p>
-        </div></p></div>
+        </div></p></div></div>
 <br>
 
 <div id="dates">
-    <h3>Next Dates</h3><br>
+    <h3>Next Dates</h3><br><hr><br>
     
     <h4><em><b>Day of the Dead</b></em></h4><br>
         <h4>Thursday, 2 November
@@ -133,7 +137,13 @@
 
     <h4>Sunday, 2 November
                  2025</h4><br>
-    
+
+
+
+
+
+</div>
+
 </div>
           
 
@@ -149,25 +159,43 @@
             
           </div>
 
-            
+          
+          
+
+
+
+
+
+
         <section id="sub-con-wrapper">
 
             <div id="contact-section">
                 <h3 id="contact-us">Contact us
                <br> 
-                  <form action="https://formdump.codeinstitute.net/">
-                  <input type="text" placeholder="Name" name="name" required><br>
-                  <textarea type="text" id="form-contact" placeholder="Message"  name="Message" required></textarea><br>
-                  <input type="submit" value="Submit"></h3>
+
+                  <form target="_blank" action="https://formdump.codeinstitute.net/" method="post">
+                    
+                <input type="text" placeholder="Full Name" name="message" required><br>
+
+                  <textarea type="text" placeholder="Your message..."  name="message" required></textarea><br>
+
+                  <input type="submit" value="Submit" name="message"></h3>
                       
-                  </div>   
-            <div id="sub-section">
+                  </div></form>
+            
+                  <div id="sub-section">
         
-        <form action="https://formdump.codeinstitute.net/">
-            <h3 id="sub-text">Subscribe to Newsletter<br>
-                <input type="text" placeholder="Name" name="name" required><br>
-                <input type="text" placeholder="Email address" name="mail" required><br>
-                <input type="submit" value="Subscribe"></h3>
+        <form target="_blank" action="https://formdump.codeinstitute.net/" method="post">
+
+            
+                <h3 id="sub-text">Subscribe to Newsletter<br>
+
+                <input  type="text" placeholder="Full Name" name="subscribe" required><br>
+
+                <input  type="text" placeholder="Email address" name="subscribe" required><br>
+                
+                <input  type="submit" value="Subscribe" name="subscribe"></h3>
+
             </form>
         </div>
  
